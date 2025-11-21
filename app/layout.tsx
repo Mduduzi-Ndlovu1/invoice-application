@@ -2,6 +2,22 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// Design system global imports (tokens, base, utilities, components)
+import '@/design-system/tokens/colors.css';
+import '@/design-system/tokens/typography.css';
+import '@/design-system/tokens/spacing.css';
+import '@/design-system/tokens/radius.css';
+
+import '@/design-system/base/reset.css';
+import '@/design-system/base/base.css';
+
+import '@/design-system/utilities/utilities.css';
+
+import '@/design-system/components-css/button.css';
+import '@/design-system/components-css/input.css';
+import '@/design-system/components-css/select.css';
+import '@/design-system/components-css/date.css';
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

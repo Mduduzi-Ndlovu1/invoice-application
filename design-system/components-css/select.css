@@ -1,0 +1,12 @@
+.select {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e6e6ef;
+  background: var(--color-surface-100);
+  color: var(--color-text);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+}
+
+.select:focus { outline: 2px solid var(--color-primary-300); outline-offset: 2px; }

@@ -1,0 +1,11 @@
+/* Minimal utility classes */
+.u-flex { display: flex; }
+.u-flex-center { display: flex; align-items: center; justify-content: center; }
+
+.u-radius-sm { border-radius: var(--radius-sm); }
+.u-radius-md { border-radius: var(--radius-md); }
+
+.u-text-sm { font-size: 0.875rem; }
+.u-text-lg { font-size: 1.125rem; }
+
+/* mmamogo  */
