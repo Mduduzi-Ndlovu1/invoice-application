@@ -1,0 +1,18 @@
+:root {
+  /* Primary */
+  --color-primary-100: #e5dcff;
+  --color-primary-300: #a78bfa;
+  --color-primary-500: #6d5dfc;
+
+  /* Accent / feedback */
+  --color-accent-100: #f7d1ff;
+  --color-danger: #ff6c6c;
+
+  /* Surfaces */
+  --color-surface-100: #ffffff;
+  --color-surface-900: #0a0a18;
+
+  /* Text */
+  --color-text: #0a0a18;
+  --color-text-muted: #6b6b7a;
+}
